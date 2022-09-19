@@ -4,20 +4,20 @@
   padding: 0 0;
 }
 #page{
-  background: radial-gradient(at 50% 100%, yellow 10px, #c33700 30%, #28002d 95%);
+  background: radial-gradient(at 50% 128%, yellow 188px, #da3e00 42%, #28002d 76%);
   position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
 }
+
 /* ENTÊTE DE PAGE*/
 header{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  
   height: 20%;
 }
 h1{
@@ -25,55 +25,62 @@ h1{
   font-size: 5.3vw;
 }
 #title{
+  font-family: 'Style Script', cursive;
   color: #fdeeaa;
   font-size: 1.5vw;
 }
+
 /* CORPS DE PAGE*/
 main{
-  
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
   height: 75%;
-
 }
 #general{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 35%;
+  align-items: center;
+  width: 100%;
   height: 85%;
-  
 }
 /* texte et auteur*/
 #containt{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   height: 70%;
+  width: 100%;
 }
 #text{
-  /* display: flex; */
+  display: flex;
+  justify-content: center;
+  width: 49%;
   height: 82%;
   background: #e3d0b6;
   border-radius: 60px 60px 15px 15px;
   border: 5px double black;
 }
 #words{
-  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100%;
+  width: 97%;
   text-align: justify;
   font-family: 'Style Script', cursive;
-  font-size: 1.8vw;
+  font-size: 2.3vw;
 }
 #author{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 10%;
+  width: 40%;
+  height: 13%;
   background: #e3d0b6;
   text-align: center;
-  border-radius: 10px 10px 30px 30px;
+  border-radius: 30px 30px 5px 5px;
   border-top: 5px double black;
   font-size: 1.5vw;
   font-weight: bold;
@@ -84,17 +91,20 @@ main{
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  height: 15%;
+  width: 31%;
+  height: 11%;
   background: linear-gradient(#ac2000, orange);
   border-radius: 5px 5px 40px 40px;
   border-top: 1px solid white;
   border-bottom: 1px solid white;
+}
+#citation{
   color: #e3d0b6;
   font-size: 1.9vw;
 }
+
 /* PIED DE PAGE*/
 footer{
-  
   height: 5%;
 }
 #prod{
