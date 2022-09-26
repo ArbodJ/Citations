@@ -218,3 +218,18 @@ footer{
     background: radial-gradient(at 64% 324%, yellow 127px, #da3e00 57%, #28002d 94%);
   }
 }
+@media screen and (max-width: 275px){
+  #page{
+    background: radial-gradient(at 51% 267%, yellow 87px, #da3e00 59%, #28002d 89%);
+  }
+}
+@media screen and (max-width: 240px){
+  #page{
+    background: radial-gradient(at 56% 353%, yellow 81px, #da3e00 56%, #28002d 92%);
+  }
+}
+@media screen and (max-width: 195px){
+  #page{
+    background: radial-gradient(at 59% 369%, yellow 80px, #da3e00 54%, #28002d 95%);
+  }
+}
