@@ -162,12 +162,18 @@ footer{
   #page{
     background: radial-gradient(at 50% 276%, yellow 175px, #da3e00 57%, #28002d 91%);
   }
+  h1{
+    font-size: 4.4vw;
+  }
+  #title{
+    font-size: 2.5vw;
+  }
   #text{
     width: 77%;
     border-radius: 35px 35px 10px 10px;
   }
   #words{
-    font-size: 4.4vw;
+    font-size: 2.5vw;
   }
 }
 @media screen and (max-width: 495px){
@@ -177,8 +183,11 @@ footer{
   h1{
     font-size: 6.5vw;
   }
+  #title{
+    font-size: 2.5vw;
+  }
   #words{
-    font-size: 3.5vw;
+    font-size: 3.2vw;
   }
 }
 @media screen and (max-width: 420px){
