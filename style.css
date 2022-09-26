@@ -176,7 +176,7 @@ footer{
     font-size: 2.5vw;
   }
 }
-@media screen and (max-width: 495px){
+@media screen and (max-width: 490px){
   #page{
     background: radial-gradient(at 50% 293%, yellow 156px, #da3e00 60%, #28002d 78%);
   }
